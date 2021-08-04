@@ -1,0 +1,61 @@
+asteroid dataset data dictionary
+this file created by Yarri Bryn via kaggle listing of the dataset: 
+https://www.kaggle.com/sakhawat18/asteroid-dataset.
+
+------------------------------------------------------------------
+            |
+(colname)   |       (actions)     
+------------------------------------------------------------------        
+COLNAME     |               REMOVED
+            |                   CAT TO FACTOR
+            |           COLnum TO BIN
+            |       YN to BIN
+            |   AS IS
+------------------------------------------------------------------
+id:                         object internal database id (char)
+spkid:                      object primary spkid (id)
+full_name:                  object full name/designation (char)
+pdes:                       serial (int)
+name:                       object Name (98% null values) (char)
+prefix:                     object prefix (100% null values) (id)
+neo:                near earth object or not (binary y/n)
+pha:                potential hazardous asteroid or not (binary y/n)
+H:                      absolute magnitude parameter (float)
+diameter:               asteroid diameter (float)
+albedo:         geometric albedo (float)
+diameter_sigma:         diameter 1 signma (float)
+orbit_id:                       orbit id (char)
+epoch:          epoch (float)
+epoch_mjd:      epoch_mjd (int)
+epoch_cal:      epoch calendar (float)
+equinox:                    equinox (char)
+e:              eccentricity (float)
+a:              semi-major axis au unit (float)
+q:              peribelion distance au unit (float)
+i:              inclination (float)
+om:             omega (float)
+w:              w (float)
+ma:             median anomaly (float)
+ad:             ad (float)
+n:              n (float)
+tp:             tp tdb (float)
+tp_cal:         tp calendar (float)
+per:            period (float)
+per_y:          period year (float)
+moid:           earth minimum orbit intersection distance au unit (float)
+moid_ld:        earth minimum orbit intersection distance lunar unit (float)
+sigma_e:        e 1-sigma (float)
+sigma_a:        a 1-sigma (float)
+sigma_q:        q 1-sigma (float)
+sigma_i:        i 1-sigma (float)
+sigma_om:       om 1-sigma (float)
+sigma_w:        w 1-sigma (float)
+sigma_ma:       ma 1-sigma (float)
+sigma_ad:       ad 1-sigma (float)
+sigma_n:        n 1-sigma (float)
+sigma_tp:       tp 1-sigma (float)
+sigma_per:      period 1-sigma (float)
+class:                           asteroid class (char)
+rms:            rms value of signal (float)
+
+
