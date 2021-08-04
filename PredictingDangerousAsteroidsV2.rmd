@@ -5,6 +5,7 @@ date: "12/14/2020"
 output:
   html_document:
     df_print: paged
+    keep_md: TRUE
 ---
 *revised 8/4/2021 on a different laptop (MBP vs old Dell i7). Should work with r4.0 and later.*
 ```{r setup, include=FALSE}
