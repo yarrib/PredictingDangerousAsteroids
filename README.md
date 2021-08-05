@@ -31,7 +31,7 @@ There are some unused dependencies because it was intended some of the cross val
 
 Substituing a genetic algorithm or bayesian optimization in lieu of grid search would likely be a significant improvement in the results as yielded in the confusion matrix (Type I and Type II errors).
 
-Loading the initial dataset into memory is computationally expensive and there is probably a better way, e.g. using Dask or some other method. I am not versed (yet!) in these methods thus 
+Loading the initial dataset into memory is computationally expensive and there is probably a better way, e.g. using Dask or some other method. I am not versed (yet!) in these methods thus I didn't venture down this road when I worked on the project.
 
 ## Other
 
